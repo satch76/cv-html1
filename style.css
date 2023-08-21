@@ -14,7 +14,7 @@ margin: auto;
             width: 15%;
             border-radius: 50%;
             justify-content:  center;
-            
+            box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.471);
                 }
                 #pic:hover{
                     transform: scale(2);
