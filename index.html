@@ -11,20 +11,20 @@
 <body>
     <header>
         <section>
-          <p id="pic1"><img src="./images/piccv.jpeg" alt="photo de profil"></p> 
-            <h1>john Doe</h1>
-            <h2>developpeur web junior</h2>
+           <div id="container"><img id="pic" src="./images/piccv.jpeg" alt="photo de profil"></div>
+            <h1 id="container">john Doe</h1>
+            <h2 id="container">développeur web junior</h2>
         </section>
-        <nav>
-            <a class="bandeau1" href="https://www.google.fr/maps/place/10+Rue+du+Pont,+92200+Neuilly-sur-Seine/@48.8873753,2.2570351,17z/data=!3m1!4b1!4m5!3m4!1s0x47e6656d660868c5:0x8e7a8ec2894c47c8!8m2!3d48.8873718!4d2.25961?entry=ttu" target="_blank">10 rue du pont,<br/> 75000 paris</a>
-            <a class="bandeau1" href="mailto:johndoe@gmail.com" target="_blank">johndoe@gmail.com</a>
-            <a class="bandeau1" href="tel: 07777777" target="_blank">07777777</a>    
+        <nav id="bandeau1">
+            <a id="bandeau1" href="https://www.google.fr/maps/place/10+Rue+du+Pont,+92200+Neuilly-sur-Seine/@48.8873753,2.2570351,17z/data=!3m1!4b1!4m5!3m4!1s0x47e6656d660868c5:0x8e7a8ec2894c47c8!8m2!3d48.8873718!4d2.25961?entry=ttu" target="_blank">10 rue du pont,<br/> 75000 paris</a>
+            <a id="bandeau1" href="mailto:johndoe@gmail.com" target="_blank">johndoe@gmail.com</a>
+            <a id="bandeau1" href="tel: 07777777" target="_blank">07777777</a>    
         </nav>
 
         </header>
     <main>
         
-        <div class="container">
+        <div id="container2">
         <section class="item">
             <h3>A propos</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus voluptates ipsa officiis possimus maiores qui consequatur. Libero ipsam incidunt ab.</p>
@@ -38,7 +38,7 @@
             </ul>
 
         </section>
-        <section class="item">
+        <section id="item">
             <h3>Centres d'interets</h3>
             <ul>
                 <li>pratique de la musique</li>
@@ -48,11 +48,11 @@
             
         </section>
         </div>
-        <!--j 'ai conscience que je n ai pas respecté la bordure sur la droite demandée'-->
-        <div class="container2">
-            <section class="item2">
-                 <h4>Expérience professionnelle</h4>
-                    <p class="marg1">  <strong>intitulé du poste chez telle entreprise</strong></p>
+       
+        <div id="container3">
+            <section>
+                <h4>Expérience professionnelle</h4>
+                    <p id="marg1"><strong>intitulé du poste chez telle entreprise</strong></p>
                     <p>    du xxx au xxx</p>
                     <ul>
                         <li>mission1</li>
@@ -60,7 +60,7 @@
                         <li>mission3</li>
                     </ul>
                     <br/>
-                    <p class="marg1">  <strong>intitulé du poste chez telle entreprise</strong></p>
+                    <p id="marg1"><strong>intitulé du poste chez telle entreprise</strong></p>
                     <p>    du xxx au xxx</p>
                     <ul>
                         <li>mission1</li>
@@ -68,45 +68,43 @@
                         <li>mission3</li>
                     </ul>
                     <br/>
-                    <p class="marg1">  <strong>intitulé du poste chez telle entreprise</strong></p>
+                    <p id="marg1"><strong>intitulé du poste chez telle entreprise</strong></p>
                     <p>    du xxx au xxx</p>
                     <ul>
                         <li>mission1</li>
                         <li>mission2</li>
                     </ul>
              </section>
-             <section class="item2">
+             <section >
                  <h4>Diplomes/Formations</h4>
                     <p><strong>Diplome/formation1</strong></p>
-                    <p>  Du xxx au xxx</p>
-                    <p>    nom de l'école</p>
+                    <p>Du xxx au xxx</p>
+                    <p>nom de l'école</p>
                     <br/>
                     <p><strong>Diplome/formation2</strong></p>
                     <p>  Du xxx au xxx</p>
                     <p>    nom de l'école</p>
              </section>
-             <section class="item2">
+             <section>
                  <h4>Competences</h4>
                     <ul>
                         <li>HTML5 - debutant</li>
                         <li>CSS 3 - debutant</li>
                         <li>github - debutant</li>
                     </ul>
+                </div>
 
              </section>
         </div>
     </main>
     <footer>
-        <!--j' ai conscience que la taille et le style de mes icones sont a revoir,mais la transparence au survol souris est ok -->
-        <!-- j'ai volontairement ommis de lier l'icone github, car elle mene sur mon espace perso; mais je l'ai marqué-->
-        
-        <div class="icone">
+       
+        <div id="icone">
         <a href="https://www.linkedin.com/authwall?trk=qf&original_referer=https://www.google.com/&sessionRedirect=https%3A%2F%2Ffr.linkedin.com%2F"><i class="fa-brands fa-linkedin"></i></a>
         <a href="https://twitter.com/?lang=fr"><i class="fa-brands fa-twitter"></i></a>
         <a href="#"><i class="fa-brands fa-github"></i></a>
         </div>
 
     </footer>
-    <!-- j ai vu a la deerniere minute qu'il y avait un cahier des charges a respecter , donc ne voulant pas prendre plus de retard j' ai du me depecher pour le rendre assez vite-->
 </body>
 </html>
